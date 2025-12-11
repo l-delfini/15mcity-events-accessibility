@@ -628,7 +628,7 @@ def make_intersection(
         _pres_cols = [c for c in cs.columns if isinstance(c, str) and c.endswith("_presence")]
         cs["coexistence"] = cs[_pres_cols].sum(axis=1) if _pres_cols else 0
     except Exception as _e:
-        # If anything goes wrong, leave previous values; better to be permissive than to crash.
+      
         pass
 
     # Drop any '*_raw' columns per your spec
