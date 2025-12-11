@@ -1,6 +1,6 @@
 
 """
-CityScoreToolkit_plain_v2_stepscore.py
+CityScoreToolkit.py
 --------------------------------------
 Adds a scoring toggle so you can compute CityScore from:
   - "weighted" (default): original behavior using isochrone time_in_min weights (constant 15 in this setup)
